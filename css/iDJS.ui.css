@@ -1,0 +1,117 @@
+/* 
+    Document   : iDJS.ui.css
+    Author     : David Kim david.qwk@gmail.com
+*/
+@import url('iDGrid.css') screen;
+@import url('matheditor/content.css') screen;
+
+.iDButton {
+    position:absolute;
+    margin:5px 10px 5px 0;
+    width:50px;
+    text-align:center;
+    padding:5px 10px 5px 10px;
+    background:#5b5b5b;
+    font:bold 11px verdana;
+    color:#fff;
+    brder:1px solid #fff;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    box-shadow: -2px -2px 2px #888;
+    -moz-box-shadow: -2px -2px 2px #888;
+    -webkit-box-shadow: -2px -2px 2px #888;
+    cursor:pointer;
+}
+.iDCheckbox {
+    cursor:pointer;
+}
+.iDRadio {
+    cursor:pointer;
+}
+.iDText {
+    position:absolute;
+    top:0px;
+    left:0px;
+    background:#ffffff;
+    font:normal 12px verdana;
+    brder:1px solid #fff;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+}
+.iDTextarea {
+    position:absolute;
+    top:0px;
+    left:0px;
+    background:#ffffff;
+    font:normal 12px verdana;
+    brder:1px solid #fff;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+}
+.iDWarning {
+    position:absolute;
+    top:0px;
+    left:0px;
+    padding:3px 5px 3px 8px;
+    background:#800000;
+    font:normal 12px verdana;
+    color:#fff;
+    border:1px solid #800000;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    box-shadow: -1px -1px 2px #ff0000;
+    -moz-box-shadow: -1px -1px 2px #ff0000;
+    -webkit-box-shadow: -1px -1px 2px #ff0000;
+}
+.iDRequired {
+    color:#ff0000;
+}
+.iDConfirm {
+    position:absolute;
+    padding:15px 10px;
+    width:200px;
+    height:100px;
+    top:0px;
+    left:0px;
+    color:#000;
+    font:bold 12px verdana;
+    background:#c3c3c3;
+    border:1px solid #000;
+    border-radius: 20px;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    box-shadow: -1px -1px 2px #5a5a5a;
+    -moz-box-shadow: -1px -1px 2px #5a5a5a;
+    -webkit-box-shadow: -1px -1px 2px #5a5a5a;
+}
+.iDPreloader {
+    display:table-cell;
+    text-align:center;
+    vertical-align:middle;
+    background:#fff;
+    z-index:9999;
+    border:1px solid #fff;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    box-shadow: 1px 1px 1px #5a5a5a;
+    -moz-box-shadow: 1px 1px 1px #5a5a5a;
+    -webkit-box-shadow: 1px 1px 1px #5a5a5a;
+    width:200px;
+    height:150px;
+    line-height:150px;
+}
+
+.iDPreloader > img {
+    vertical-align: middle;
+}
+
+.iDFileDragDropPreviewImg {
+    width:60px;
+    height:60px;
+    vertical-align: middle;
+}
